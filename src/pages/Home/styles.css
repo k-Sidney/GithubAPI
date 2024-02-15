@@ -5,3 +5,24 @@
 .start-button {
     color: #fff;
 }
+
+.home-welcome-container{
+    margin-bottom: 40px;
+}
+
+.home-welcome-container h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+}
+
+.home-welcome-container h6 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #7E7E7E;
+}
+
+.start-button {
+    font-weight: 400;
+    font-size: 16px;
+}
