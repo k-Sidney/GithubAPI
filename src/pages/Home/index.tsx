@@ -11,7 +11,7 @@ const Home = () => {
         <h6>DevSuperior - Escola de programação</h6>
       </div>
 
-      <Link to="/cepsearch">
+      <Link to="/usersearch">
         <button className="btn btn-primary btn-lg start-button">Começar</button>
       </Link>
     </div>

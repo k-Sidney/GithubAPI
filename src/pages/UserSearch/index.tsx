@@ -16,7 +16,7 @@ type Info = {
   name: string;
 };
 
-const CepSearch = () => {
+const UserSearch = () => {
   const [info, setInfo] = useState<Info>();
 
   const [formData, setFormData] = useState<FormData>({
@@ -47,7 +47,7 @@ const CepSearch = () => {
   };
 
   return (
-    <div className="cep-search-container">
+    <div className="user-search-container">
       <div className="container search-container">
         <h1>Encontre um perfil Github</h1>
         <form onSubmit={handleSubmit}>
@@ -89,4 +89,4 @@ const CepSearch = () => {
   );
 };
 
-export default CepSearch;
+export default UserSearch;
